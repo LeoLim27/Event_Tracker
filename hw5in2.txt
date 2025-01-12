@@ -1,0 +1,19 @@
+AddEvent 0510 Birthday
+AddEvent 0620 Graduation_Day
+AddEvent 0210 Wedding_Anniversary
+AddEvent 0224 Vacation_Trip
+AddEvent 1225 Family_Reunion
+AddEvent 1015 Book_Launch
+AddEvent 0427 Promotion_At_Work
+AddEvent 0522 Baby_Shower
+DisplayEvent 1225
+DisplayEvent 1230
+DisplayEventsBetweenDates 0201 0531
+DisplayEventsFromStartDate 1001
+DisplayEventsToEndDate 0420
+AddEvent 0327 Business_Trip
+AddEvent 0910 Concert
+DeleteEvent 0522
+DeleteEvent 1231
+DisplayAllEvents
+PrintSkipList

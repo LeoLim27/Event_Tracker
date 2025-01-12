@@ -1,0 +1,23 @@
+AddEvent 0510 Birthday success
+AddEvent 0620 Graduation_Day success
+AddEvent 0210 Wedding_Anniversary success
+AddEvent 0224 Vacation_Trip success
+AddEvent 1225 Family_Reunion success
+AddEvent 1015 Book_Launch success
+AddEvent 0427 Promotion_At_Work success
+AddEvent 0522 Baby_Shower success
+DisplayEvent 1225 Family_Reunion
+DisplayEvent 1230 none
+DisplayEventsBetweenDates 0201 0531 0210:Wedding_Anniversary 0224:Vacation_Trip 0427:Promotion_At_Work 0510:Birthday 0522:Baby_Shower
+DisplayEventsFromStartDate 1001 1015:Book_Launch 1225:Family_Reunion
+DisplayEventsToEndDate 0420 0210:Wedding_Anniversary 0224:Vacation_Trip 
+AddEvent 0327 Business_Trip success
+AddEvent 0910 Concert success
+DeleteEvent 0522 success
+DeleteEvent 1231 noDateError
+DisplayAllEvents 0210:Wedding_Anniversary 0224:Vacation_Trip 0327:Business_Trip 0427:Promotion_At_Work 0510:Birthday 0620:Graduation_Day 0910:Concert 1015:Book_Launch 1225:Family_Reunion
+PrintSkipList
+(S3) empty
+(S2) 0224:Vacation_Trip
+(S1) 0224:Vacation_Trip 0620:Graduation_Day 0910:Concert 1015:Book_Launch
+(S0) 0210:Wedding_Anniversary 0224:Vacation_Trip 0327:Business_Trip 0427:Promotion_At_Work 0510:Birthday 0620:Graduation_Day 0910:Concert 1015:Book_Launch 1225:Family_Reunion
